@@ -1,0 +1,330 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+}
+.navbar img {
+  background-size: cover;
+  height: 60px;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 20px;
+  position: relative;
+}
+.main-title {
+  background-image: linear-gradient(to top, #39bbe3, #ff33cf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: auto;
+  padding: 0px 20px;
+}
+.navbar ul .dropdown-toggle:hover {
+  border: 2px double rgb(17, 215, 241);
+}
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content button {
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+}
+.content .icons {
+  font-size: 60px;
+}
+.content .icons:hover {
+  animation-play-state: paused;
+}
+
+.air-clean {
+  background-image: url(../images/air1.jpg);
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.anmi::after {
+  content: "";
+  animation-name: typing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.content .btn2 {
+  background-color: #057276;
+}
+
+@keyframes typing {
+  0% {
+    content: "|";
+  }
+  3.5% {
+    content: "A|";
+  }
+  7% {
+    content: "AI|";
+  }
+  10.5% {
+    content: "AIR|";
+  }
+  14% {
+    content: "AIR |";
+  }
+  17.5% {
+    content: "AIR D|";
+  }
+  21% {
+    content: "AIR DU|";
+  }
+  24.5% {
+    content: "AIR DUS|";
+  }
+  28% {
+    content: "AIR DUST|";
+  }
+  31.5% {
+    content: "AIR DUST |";
+  }
+  35% {
+    content: "AIR DUST V|";
+  }
+  38.5% {
+    content: "AIR DUST VE|";
+  }
+  42% {
+    content: "AIR DUST VEN|";
+  }
+  45.5% {
+    content: "AIR DUST VENT|";
+  }
+  49% {
+    content: "AIR DUST VENTS|";
+  }
+  52.5% {
+    content: "AIR DUST VENT|";
+  }
+  52.5% {
+    content: "AIR DUST VEN|";
+  }
+  56% {
+    content: "AIR DUST VE|";
+  }
+  59.5% {
+    content: "AIR DUST V|";
+  }
+  63% {
+    content: "AIR DUST |";
+  }
+  66.5% {
+    content: "AIR DUST|";
+  }
+  70% {
+    content: "AIR DUS|";
+  }
+  73.5% {
+    content: "AIR DU|";
+  }
+  77% {
+    content: "AIR D|";
+  }
+  81.5% {
+    content: "AIR |";
+  }
+  84% {
+    content: "AIR|";
+  }
+  87.5% {
+    content: "AI|";
+  }
+  91% {
+    content: "A|";
+  }
+  94.5% {
+    content: "|";
+  }
+}
+.regist {
+  margin-left: auto;
+}
+.regist button {
+  padding: 5px 15px;
+  margin-right: 10px;
+}
+.regist input {
+  margin-right: 10px;
+  padding: 4px 20px;
+}
+
+.social-links a {
+  display: inline;
+  font-size: 20px;
+  color: #057276;
+}
+.social-links a:hover {
+  color: #15c6cc;
+}
+
+/* start featured */
+.features .icon-holder {
+  height: 200px;
+}
+.features .icon-holder .number {
+  font-size: 12rem;
+  color: #e0f2f8;
+}
+.features .icon-holder .icon {
+  color: rgba(139, 113, 86, 0.938);
+  left: 60%;
+  top: 60%;
+  transform: translateX(-50%);
+}
+.main-title-2::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: yellow;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* end  featured */
+.section-title {
+  font-size: 3rem;
+  color: #e0f2f8;
+}
+.benft3 {
+  position: absolute;
+  top: 55%;
+  left: 1%;
+}
+/* -------------------------
+start contact-us styling
+-------------------------- */
+hr {
+  float: left !important;
+}
+.clearboth {
+  clear: both;
+}
+.contact-us {
+  background-image: url(../images/simon-berger-boyXZfqpwpU-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.contact-us .contact-us-layer {
+  position: relative;
+  width: 100%;
+  background-color: rgba(227, 212, 241, 0.5);
+  z-index: 99;
+}
+
+.info-social li {
+  border-color: rebeccapurple;
+  transition: all 0.3s ease-in-out;
+}
+.info-social li:hover {
+  color: rgb(248, 130, 130);
+}
+
+/* -------------------------
+start footer styling
+-------------------------- */
+.footer {
+  background-color: darkslategray;
+}
+.footer .copyright > span {
+  color: #15c6cc;
+}
+.footer .copyright div span {
+  color: #ff33cf;
+}
+.footer .contact ul {
+  width: 20px;
+  height: 20px;
+}
+.contact > a {
+  background-color: #15c6cc;
+  color: black;
+}
+.footer .facebook {
+  background-color: #1877f2;
+}
+.footer .twitter {
+  background-color: #1da1f2;
+}
+.footer .linkedin {
+  background-color: #0077b5;
+}
+.footer .youtube {
+  background-color: #ff0000;
+}
+
+.clients {
+  height: 80vh;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.client-info {
+  min-height: 99%;
+  padding: 20px 60px 20px 30px;
+  background-color: darkgrey;
+}
+.client-info .btn {
+  background-color: #057276;
+}
+.client-say {
+  position: absolute;
+  width: 50%;
+  right: 5%;
+  height: 90%;
+  padding: 20px;
+  z-index: 999;
+  background-color: #057276;
+}
+
+.client-say-info {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  margin: 10px;
+  padding: 10px;
+  z-index: 1;
+}
+/*  */
+.client-say-info ul {
+  margin-left: 0px;
+  margin-right: 10px;
+  color: black;
+}
+.border-info {
+  background-color: #057276;
+}
+
+.client-say-info ul li a {
+  color: black !important;
+  text-decoration: none;
+}
+.info i {
+  font-size: 80px;
+  color: #15c6cc;
+  margin-bottom: 20px;
+}
+.icon-us i {
+  color: #057276;
+}
